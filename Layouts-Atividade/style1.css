@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.cabeça {
+
+    background-color: #3750B3;
+    width: 100vw;
+    height: 71px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.paginas {
+
+    display: flex;
+    
+}
+
+a {
+
+    color: white;
+    display: flex;
+    width: 60px;
+    height: 100%;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 100;
+
+}
+
+.imgs {
+
+    background-image: url(./assets/imgs/Rectangle.png);
+    background-size: cover;
+    background-position-x: center;
+    width: 85vw;
+    height: 427px;
+
+}
+
+main {
+
+    padding: 60px;
+
+}
+
+.texto {
+
+    padding-top: 80px;
+
+}
+
+/* 
+justify-content
+align-items
+flex-direction
+order
+align-self
+flex-wrap
+flex-flow
+align-content */

@@ -1,56 +1,63 @@
-
-
-
-*{
+* {
     margin: 0;
     padding: 0px;
 }
 
-div{
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.cabeça {
 
     background-color: #3750B3;
     width: 100vw;
     height: 71px;
     display: flex;
-    justify-content: space-around ;        
-    align-items: center;            
+    justify-content: space-around;
+    align-items: center;
 
 }
 
 
 
-nav{
+.paginas {
 
     display: flex;
     width: 300px;
     height: 50px;
     align-items: center;
-    justify-content: space-between ;
+    justify-content: space-around;
 
 }
 
-a{
+a {
+
     color: white;
     display: flex;
     width: 60px;
-    height: 100% ;
-    text-decoration: none ;
+    height: 100%;
     align-items: center;
     font-weight: 100;
-
+    text-decoration: none;
 
 }
 
-.imgs{
+main {
+
     padding-top: 103px;
-    padding-bottom: 80px;
     display: flex;
-    align-content: center;
-    width: 1060px;
-    height: 427px;
-
+    justify-content: space-around;
+    justify-items: center;
+    width: 100vw;
 
 }
+
 
 /* 
 justify-content
