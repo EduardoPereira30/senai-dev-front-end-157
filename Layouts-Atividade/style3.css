@@ -35,7 +35,7 @@ body {
     height: 50px;
     align-items: center;
     justify-content: space-around;
-
+    
 }
 
 a {
@@ -52,16 +52,22 @@ a {
 
 main {
 
-    padding-top: 19px;
+    padding: 80px;
     display: flex;
     font-weight: normal
+
 
 }
 
 main img {
 
-    width: 500px;
-    height: 500px;
-    padding: 74px;
+    width: 700px;
+    height: 600px;
+
+}
+
+.texto {
+
+    padding-left: 79px;
 
 }
